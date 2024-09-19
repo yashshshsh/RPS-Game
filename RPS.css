@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+
+*{
+    margin:0;
+    padding: 0;
+    font-family: 'Varela Round', sans-serif;
+    box-sizing: border-box;
+}
+
+/* body{
+    background-color: #3B7080;
+} */
+
+.heading{
+    height: 14vh;
+    background-color: #3A5743;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 2.5rem;
+}
+
+/* Body */
+
+.choices{
+    height: 44vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.choice{
+    border-radius: 50%;
+}
+
+.choice:hover{
+    cursor: pointer;
+    border: 10px solid black;
+}
+
+#rock{
+    height: 33vmin;
+    width: 18vmin;
+    background-image: url("fist.jpg");
+    background-size: cover;
+    margin-right: 30px;
+    
+}
+
+#scissor{
+    height: 33vmin;
+    width: 18vmin;
+    background-image: url("victory.jpg");
+    background-size: cover;
+    margin-right: 30px;
+}
+
+#paper{
+    height: 33vmin;
+    width: 18vmin;
+    background-image: url("palm.jpg");
+    background-size: cover;
+}
+
+/* Scores */
+
+.score-board{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:35px;
+    padding-top: 40px;
+}
+
+.scores{
+    font-size: 30px;
+    text-align: center;
+    color: black;
+    font-weight: bold;
+}
+
+.msg-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+}
+
+#msg{
+    display: inline;
+    background-color: black;
+    height: 58px;
+    width: 400px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 16px;
+}
+
+
+
+
+
+
+
+
+
